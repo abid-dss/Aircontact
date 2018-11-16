@@ -79,7 +79,7 @@ UINavigationControllerDelegate  {
         personalProfile.setValue(emailUITextField.text, forKey: "email")
         
         let imageData = UIImagePNGRepresentation((userImageView.imageView?.image)!)
-        print ("Image Save : \(imageData)")
+        //print ("Image Save : \(imageData)")
         personalProfile.setValue(imageData, forKey: "image")
         
         do

@@ -11,12 +11,15 @@ import UIKit
 
 class SettingViewController: UIViewController {
 
-    @IBAction func onClickPersonalProfile(_ sender: Any) {
+    
+    @IBAction func onClickPersonalProfile(_ sender: Any)
+    {
         let loginViewController =  self.storyboard?.instantiateViewController(withIdentifier: "PersonalProfileViewController") as! PersonalProfileViewController
         self.present(loginViewController, animated: true, completion: nil)
     }
     
-    @IBAction func onClickBusinessProfile(_ sender: Any) {
+    @IBAction func onClickBUsinessProfile(_ sender: Any)
+    {
         let loginViewController =  self.storyboard?.instantiateViewController(withIdentifier: "BusinessProfileViewController") as! BusinessProfileViewController
         self.present(loginViewController, animated: true, completion: nil)
     }

@@ -13,6 +13,7 @@ class SendViewController: UIViewController,UITableViewDelegate, UITableViewDataS
 
     var cardsList: [CardTemplate] = []
     @IBOutlet weak var senderNameLabel: UILabel!
+    //@IBOutlet weak var contactsTableView: UITableView!
     @IBOutlet weak var contactsTableView: UITableView!
     
     var imageData: Data? = nil
@@ -29,17 +30,17 @@ class SendViewController: UIViewController,UITableViewDelegate, UITableViewDataS
         cell.nameLabel.text = cardList.name
         cell.jobTitleLabel.text = cardList.jobTitle
         cell.emailLabel.text = cardList.email
-        cell.phoneLabel.text = cardList.phone
+        //cell.phoneLabel.text = cardList.phone
         
         //let totalCount = cardsList.count
         //let imageData: CardTemplate = cardsList[totalCount-1]
         
         if imageData != nil
         {
-            let image : UIImage = UIImage(data: imageData!)!
-            cell.userImageView.image = image
             cell.userImageView.layer.cornerRadius = cell.userImageView.frame.width / 2
             cell.userImageView.layer.masksToBounds = true
+            let image : UIImage = UIImage(data: imageData!)!
+            cell.userImageView.image = image
         }
         //cell.delegate = self
         return cell

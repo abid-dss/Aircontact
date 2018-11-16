@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		78CFEF8F0148A5378C4A4937 /* Pods_AirContact.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0170A4943268CA851C0F240F /* Pods_AirContact.framework */; };
+		FA140CDB219E88550024C472 /* AppUitils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA140CDA219E88550024C472 /* AppUitils.swift */; };
 		FAA4F5B5219983140043B1E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4F5B4219983140043B1E7 /* AppDelegate.swift */; };
 		FAA4F5BA219983140043B1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA4F5B8219983140043B1E7 /* Main.storyboard */; };
 		FAA4F5BD219983140043B1E7 /* AirContact.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAA4F5BB219983140043B1E7 /* AirContact.xcdatamodeld */; };
@@ -24,18 +25,6 @@
 		FAA4F5E22199A7BF0043B1E7 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA4F5E12199A7BF0043B1E7 /* ShareViewController.swift */; };
 		FAA4F5E42199ACB30043B1E7 /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA4F5E32199ACB30043B1E7 /* download.png */; };
 		FAA5C096219D9D7C00F4D400 /* networking.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C095219D9D7B00F4D400 /* networking.png */; };
-		FAA5C0A0219DA0F600F4D400 /* share_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C097219DA0F400F4D400 /* share_btn@3x.png */; };
-		FAA5C0A1219DA0F600F4D400 /* rightarrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C098219DA0F500F4D400 /* rightarrow@3x.png */; };
-		FAA5C0A2219DA0F600F4D400 /* Profile_home_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C099219DA0F500F4D400 /* Profile_home_btn.png */; };
-		FAA5C0A3219DA0F600F4D400 /* Profile_home_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C09A219DA0F500F4D400 /* Profile_home_btn@2x.png */; };
-		FAA5C0A4219DA0F600F4D400 /* share_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C09B219DA0F500F4D400 /* share_btn@2x.png */; };
-		FAA5C0A5219DA0F600F4D400 /* rightarrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C09C219DA0F500F4D400 /* rightarrow@2x.png */; };
-		FAA5C0A6219DA0F600F4D400 /* Profile_home_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C09D219DA0F500F4D400 /* Profile_home_btn@3x.png */; };
-		FAA5C0A7219DA0F600F4D400 /* rightarrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C09E219DA0F500F4D400 /* rightarrow.png */; };
-		FAA5C0A8219DA0F600F4D400 /* share_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C09F219DA0F500F4D400 /* share_btn.png */; };
-		FAA5C0AC219DA11D00F4D400 /* backarrowwhite@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C0A9219DA11D00F4D400 /* backarrowwhite@3x.png */; };
-		FAA5C0AD219DA11D00F4D400 /* backarrowwhite@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C0AA219DA11D00F4D400 /* backarrowwhite@2x.png */; };
-		FAA5C0AE219DA11D00F4D400 /* backarrowwhite.png in Resources */ = {isa = PBXBuildFile; fileRef = FAA5C0AB219DA11D00F4D400 /* backarrowwhite.png */; };
 		FAB774FB219AB8B400051D05 /* ConnectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB774FA219AB8B400051D05 /* ConnectionService.swift */; };
 		FAB774FE219ACE8700051D05 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB774FD219ACE8700051D05 /* UserTableViewCell.swift */; };
 		FAB77500219AD3D000051D05 /* SendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB774FF219AD3D000051D05 /* SendViewController.swift */; };
@@ -47,6 +36,7 @@
 		0170A4943268CA851C0F240F /* Pods_AirContact.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirContact.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		881B9AB4C5420D660A5839BB /* Pods-AirContact.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirContact.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirContact/Pods-AirContact.release.xcconfig"; sourceTree = "<group>"; };
 		DF1BED8F5BE2033A271B2E44 /* Pods-AirContact.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirContact.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirContact/Pods-AirContact.debug.xcconfig"; sourceTree = "<group>"; };
+		FA140CDA219E88550024C472 /* AppUitils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUitils.swift; sourceTree = "<group>"; };
 		FAA4F5B1219983140043B1E7 /* AirContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA4F5B4219983140043B1E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAA4F5B9219983140043B1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -65,18 +55,6 @@
 		FAA4F5E12199A7BF0043B1E7 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
 		FAA4F5E32199ACB30043B1E7 /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
 		FAA5C095219D9D7B00F4D400 /* networking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = networking.png; sourceTree = "<group>"; };
-		FAA5C097219DA0F400F4D400 /* share_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_btn@3x.png"; sourceTree = "<group>"; };
-		FAA5C098219DA0F500F4D400 /* rightarrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightarrow@3x.png"; sourceTree = "<group>"; };
-		FAA5C099219DA0F500F4D400 /* Profile_home_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile_home_btn.png; sourceTree = "<group>"; };
-		FAA5C09A219DA0F500F4D400 /* Profile_home_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile_home_btn@2x.png"; sourceTree = "<group>"; };
-		FAA5C09B219DA0F500F4D400 /* share_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share_btn@2x.png"; sourceTree = "<group>"; };
-		FAA5C09C219DA0F500F4D400 /* rightarrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rightarrow@2x.png"; sourceTree = "<group>"; };
-		FAA5C09D219DA0F500F4D400 /* Profile_home_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Profile_home_btn@3x.png"; sourceTree = "<group>"; };
-		FAA5C09E219DA0F500F4D400 /* rightarrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightarrow.png; sourceTree = "<group>"; };
-		FAA5C09F219DA0F500F4D400 /* share_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share_btn.png; sourceTree = "<group>"; };
-		FAA5C0A9219DA11D00F4D400 /* backarrowwhite@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backarrowwhite@3x.png"; sourceTree = "<group>"; };
-		FAA5C0AA219DA11D00F4D400 /* backarrowwhite@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backarrowwhite@2x.png"; sourceTree = "<group>"; };
-		FAA5C0AB219DA11D00F4D400 /* backarrowwhite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backarrowwhite.png; sourceTree = "<group>"; };
 		FAB774FA219AB8B400051D05 /* ConnectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionService.swift; sourceTree = "<group>"; };
 		FAB774FD219ACE8700051D05 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
 		FAB774FF219AD3D000051D05 /* SendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewController.swift; sourceTree = "<group>"; };
@@ -178,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				FAA4F5D92199906D0043B1E7 /* AppManager.swift */,
+				FA140CDA219E88550024C472 /* AppUitils.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -185,18 +164,6 @@
 		FAA4F5E52199ACC30043B1E7 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				FAA5C0AB219DA11D00F4D400 /* backarrowwhite.png */,
-				FAA5C0AA219DA11D00F4D400 /* backarrowwhite@2x.png */,
-				FAA5C0A9219DA11D00F4D400 /* backarrowwhite@3x.png */,
-				FAA5C099219DA0F500F4D400 /* Profile_home_btn.png */,
-				FAA5C09A219DA0F500F4D400 /* Profile_home_btn@2x.png */,
-				FAA5C09D219DA0F500F4D400 /* Profile_home_btn@3x.png */,
-				FAA5C09E219DA0F500F4D400 /* rightarrow.png */,
-				FAA5C09C219DA0F500F4D400 /* rightarrow@2x.png */,
-				FAA5C098219DA0F500F4D400 /* rightarrow@3x.png */,
-				FAA5C09F219DA0F500F4D400 /* share_btn.png */,
-				FAA5C09B219DA0F500F4D400 /* share_btn@2x.png */,
-				FAA5C097219DA0F400F4D400 /* share_btn@3x.png */,
 				FAA5C095219D9D7B00F4D400 /* networking.png */,
 				FAA4F5E32199ACB30043B1E7 /* download.png */,
 			);
@@ -280,23 +247,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAA5C0A3219DA0F600F4D400 /* Profile_home_btn@2x.png in Resources */,
-				FAA5C0A0219DA0F600F4D400 /* share_btn@3x.png in Resources */,
-				FAA5C0AC219DA11D00F4D400 /* backarrowwhite@3x.png in Resources */,
 				FAA4F5C2219983150043B1E7 /* LaunchScreen.storyboard in Resources */,
-				FAA5C0A5219DA0F600F4D400 /* rightarrow@2x.png in Resources */,
-				FAA5C0AE219DA11D00F4D400 /* backarrowwhite.png in Resources */,
 				FAA4F5BF219983150043B1E7 /* Assets.xcassets in Resources */,
-				FAA5C0A6219DA0F600F4D400 /* Profile_home_btn@3x.png in Resources */,
-				FAA5C0A8219DA0F600F4D400 /* share_btn.png in Resources */,
-				FAA5C0A2219DA0F600F4D400 /* Profile_home_btn.png in Resources */,
-				FAA5C0A4219DA0F600F4D400 /* share_btn@2x.png in Resources */,
 				FAA5C096219D9D7C00F4D400 /* networking.png in Resources */,
-				FAA5C0A7219DA0F600F4D400 /* rightarrow.png in Resources */,
 				FAA4F5BA219983140043B1E7 /* Main.storyboard in Resources */,
-				FAA5C0A1219DA0F600F4D400 /* rightarrow@3x.png in Resources */,
 				FAA4F5E42199ACB30043B1E7 /* download.png in Resources */,
-				FAA5C0AD219DA11D00F4D400 /* backarrowwhite@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +316,7 @@
 				FAA4F5DC2199A43C0043B1E7 /* TabBarViewController.swift in Sources */,
 				FAA4F5D721998F890043B1E7 /* SplashViewController.swift in Sources */,
 				FAA4F5E02199A7500043B1E7 /* SettingViewController.swift in Sources */,
+				FA140CDB219E88550024C472 /* AppUitils.swift in Sources */,
 				FAB77502219ADFD300051D05 /* SendTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

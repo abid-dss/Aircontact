@@ -10,10 +10,14 @@ import UIKit
 
 class SendTableViewCell: UITableViewCell {
 
+   // @IBOutlet weak var userImageView: UIImageView!
+   // @IBOutlet weak var nameLabel: UILabel!
+   // @IBOutlet weak var jobTitleLabel: UILabel!
+   // @IBOutlet weak var phoneLabel: UILabel!
+    //@IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var userImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var jobTitleLabel: UILabel!
-    @IBOutlet weak var phoneLabel: UILabel!
     @IBOutlet weak var emailLabel: UILabel!
     
     
